@@ -17,6 +17,7 @@ import javafx.stage.Stage;
  *
  * @author aaronyeh
  */
+
 public class JavaFXApplication extends Application {
     
     @Override
@@ -47,5 +48,4 @@ public class JavaFXApplication extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
-}
+}   
