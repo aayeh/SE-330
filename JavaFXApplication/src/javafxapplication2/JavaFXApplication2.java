@@ -13,7 +13,9 @@ import javafx.stage.Stage;
 import javafx.scene.layout.GridPane;
 
 /**
- *
+ * Main class
+ * Currently a template making a grid style calendar
+ * Will probably change this to a 4x3 grid of months and have user choose what month to click into
  * @author aaronyeh
  */
 public class JavaFXApplication2 extends Application {
@@ -23,7 +25,7 @@ public class JavaFXApplication2 extends Application {
         primaryStage.setTitle("GridPane Experiment");
         
         GridPane gridPane = new GridPane();
-
+        
         for(int i = 1; i < 32; i++){
 
             String s = String.valueOf(i);
@@ -58,10 +60,10 @@ public class JavaFXApplication2 extends Application {
                
             }
         }
-        gridPane.setHgap(100);
-        gridPane.setVgap(100);
+        gridPane.setHgap(200);
+        gridPane.setVgap(200);
         primaryStage.setMaximized(true);
-        Scene scene = new Scene(gridPane, 20000, 10000);
+        Scene scene = new Scene(gridPane, 300, 150);
         primaryStage.setScene(scene);
         primaryStage.show();
 
