@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 /**
  *
  * @author aaronyeh
- * this is just to see if i need this for a popup screen
+ * this is just to see if i need this for a popup screen (when you click on a day)
  */
 public class UIofDay1 extends Application {
     
